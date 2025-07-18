@@ -50,7 +50,7 @@ export function AddCashierForm({ token }) {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <Button colorScheme="green" onClick={handleSubmit}>
+                <Button onClick={handleSubmit}>
                     Create
                 </Button>
                 {error && <Text color="red.500">{error}</Text>}

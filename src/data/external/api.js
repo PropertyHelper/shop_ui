@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // configure API Gateway URL
-const API_BASE = "http://10.128.55.69:8002";
+const API_BASE = "http://localhost:8002";
 
 // a unified function to perform requests
 // method and url are requried params, while token, data and isForm are optional

@@ -145,7 +145,7 @@ export default function MainPage({ token }) {
                     ref={inputRef}
                     onChange={handleFileChange}
                 />
-                <Button colorScheme="blue" onClick={() => inputRef.current?.click()}>
+                <Button onClick={() => inputRef.current?.click()}>
                     Add Excel File Catalog
                 </Button>
 
